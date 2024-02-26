@@ -1,0 +1,149 @@
+body{
+  background: url(./images/background.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#nevermind{
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 0px 50px gray;
+  width: 950px;
+  height: 460px;
+  margin-left: 46vh;
+  margin-top: 3vh;
+}
+
+
+#maintitle{
+  text-align: center;
+  color: rgb(20, 168, 212);
+  padding: 4.5vh;
+  font-size: 50px;
+  font-family: 'Courier New';
+}
+
+#taskuser{
+  text-align: center;
+  font-size: 30px;
+  margin-top: -9vh;
+  font-family: 'Arial Black';
+  color: rgb(185, 184, 255);
+}
+
+#addtask{
+  margin-left: 23.5vh;
+  width: 170px;
+  height: 35px;
+  font-family: 'Courier New';
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 7px;
+  cursor: pointer;
+  background-size: 200% 200%;
+  background-image: linear-gradient(to right, rgb(29, 62, 168) 0%, rgb(46, 149, 180) 50%, rgb(29, 62, 168) 100%);
+  animation: gradient 4s ease infinite;
+  outline: none;
+  font-size: 16px;
+  transition: border-color 0.4s;
+}
+
+#deletetask{
+  width: 170px;
+  height: 35px;
+  font-family: 'Courier New';
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 7px;
+  cursor: pointer;
+  background-size: 200% 200%;
+  background-image: linear-gradient(to right, rgb(56, 209, 189) 0%, rgb(39, 144, 185) 50%, rgb(56, 209, 189) 100%);
+  animation: gradient 4s ease infinite;
+  outline: none;
+  font-size: 16px;
+  transition: border-color 0.4s;
+}
+
+#howtouse{
+  width: 185px;
+  height: 35px;
+  font-family: 'Courier New';
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 7px;
+  cursor: pointer;
+  background-size: 200% 200%;
+  background-image: linear-gradient(to right, rgb(201, 255, 150) 0%, rgb(162, 255, 198) 50%, rgb(202, 255, 141) 100%);
+  animation: gradient 4s ease infinite;
+  outline: none;
+  font-size: 16px;
+  transition: border-color 0.4s;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+#inputfield{
+  display: flex;
+  margin: 5vh;
+  margin-left: 10vh;
+  margin-top: 6vh;
+  width: 750px;
+  height: 35px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  box-shadow: 0px 0px 5px rgb(35, 105, 163);
+  font-size: 16px;
+  text-indent: 15px;
+}
+
+#inputfield::placeholder{
+  opacity: 35%;
+  font-family: 'Courier New';
+  margin-left: 20px;
+  text-indent: 15px;
+}
+
+#hint{
+  margin-left: 20vh;
+  margin-top: -13vh;
+  color: rgba(128, 128, 128, 0.514);
+}
+
+hr{
+  opacity: 35%;
+}
+
+#text{
+  margin-left: 2vh;
+}
+
+h2{
+  color: rgb(20, 168, 212);
+  padding: 4.5vh;
+  font-size: 20px;
+  font-family: 'Courier New';
+}
+
+ul{
+  list-style-type: circle;
+  margin-top: -35px;
+  font-size: 20px;
+  font-family: 'Arial Black';
+  color:rgb(120, 89, 177)
+}
